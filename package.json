@@ -1,0 +1,36 @@
+{
+  "name": "svelteui-icons",
+  "version": "1.0.0",
+  "description": "Main package for storing ElementPlus icon resources and for svelte!",
+  "svelte": "./lib/index.js",
+  "main": "./lib/index.js",
+  "sideEffects": false,
+  "scripts": {
+    "deploy": "npx gh-pages -d dist",
+    "prepack": "node build"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbbfcd/svelteui-icons.git"
+  },
+  "keywords": [
+    "svelte",
+    "element-plus",
+    "icons",
+    "svelteui",
+    "svg"
+  ],
+  "author": "cbbfcd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cbbfcd/svelteui-icons/issues"
+  },
+  "homepage": "https://github.com/cbbfcd/svelteui-icons#readme",
+  "devDependencies": {
+    "rollup": "^2.58.1",
+    "svg-to-svelte": "^2.2.1"
+  }
+}
