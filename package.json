@@ -1,13 +1,12 @@
 {
   "name": "svelteui-icons",
-  "version": "1.0.0",
-  "description": "Main package for storing ElementPlus icon resources and for svelte!",
+  "version": "1.0.1",
+  "description": "Main package for storing ElementPlus icon resources and for svelteui!",
   "svelte": "./lib/index.js",
   "main": "./lib/index.js",
   "sideEffects": false,
   "scripts": {
-    "deploy": "npx gh-pages -d dist",
-    "prepack": "node build"
+    "build": "node build"
   },
   "files": [
     "lib"

@@ -1,6 +1,6 @@
 # Icon Index
 
-> 280 icons from svelteui-icons@1.0.0.
+> 280 icons from svelteui-icons@1.0.1.
 
 ## Usage
 
